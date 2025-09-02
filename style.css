@@ -75,14 +75,15 @@ nav {
 /* Home Page Styles */
 .hero-section {
     position: relative;
-    height: 70vh;
-    background-color: #1f2937;
+    height: 90vh;
+    font-family: Garamond, serif;
+    
 }
 
 .hero-background {
     position: absolute;
     inset: 0;
-    background-image: url('https://via.placeholder.com/1920x1080');
+    background-image: url(img/torontolapse.gif);
     background-size: cover;
     background-position: center;
 }
@@ -90,7 +91,6 @@ nav {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
